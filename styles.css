@@ -1,0 +1,384 @@
+/* general rules */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+li{
+	display: inline-block;
+}
+
+div.main-cnt{
+	min-width: 1000px;
+}
+
+
+.wrapper{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+button{
+	border: 1px solid #cdcdcd;
+	border-radius: 3px;
+	background: none;
+	width: auto;
+	height: 36px;
+	color: #fff;
+	cursor: pointer;
+	margin-right: 20px;
+}
+button:hover{
+	border: 1px solid transparent;
+	background-color:  #e92121;
+}
+
+h3{
+	color:  #464646;
+	font-size: 22px;/* Approximation due to font substitution */
+	font-weight: 700;
+}
+p{
+	color:  #b7b7b7;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 300;
+}
+h2{
+	text-transform: uppercase;
+	color:  #464646;
+	font-size: 38px;/* Approximation due to font substitution */
+	font-weight: 700;
+}
+/* general rules */
+
+/* Header */
+header{
+	background-image: url(assets/images/header_bg.jpg);
+	width: 100%;
+	min-width: 1000px;
+	height: 300px;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.company-name p{
+	float: left;
+	text-transform: uppercase;
+	font-size: 20px;/* Approximation due to font substitution */
+	font-weight: 700;
+	color: #fff;
+}
+
+header .navi{
+	float: right;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 400;
+}
+
+header .navi li{
+	margin-left: 30px;
+}
+header .navi li:last-child{
+	margin-left: 10px;
+}
+
+header .form{
+	margin-top: 50px;
+}
+
+header .form p{
+	font-size: 20px;/* Approximation due to font substitution */
+	font-weight: 300;
+}
+
+header .form h1{
+	font-size: 40px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+/* Header */
+
+/* cnt-1 history */
+.history{
+	margin-top: 40px;
+}
+.history .left{
+	float: left;
+	width: 300px;
+}
+.history .left h2{
+	padding-top: 50px;
+}
+.history .right{
+	float: right;
+	width: 620px;
+}
+.history .right p{
+	padding-top: 15px;
+	color:  #b7b7b7;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 300;
+	text-align: justify;
+}
+
+.how-it-works .header_how-it-works{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+div.grid_how-it-works{
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.grid_how-it-works li{
+	width: 31%;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 10px;
+}
+
+.grid_how-it-works .img-grid_how-it-works{
+	width: 64px;
+	height: 64px;
+	position: relative;
+	background: url('assets/images/icons.png');
+}
+
+.grid_how-it-works h3{
+	font-size: 14px;/* Approximation due to font substitution */
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 35px;
+}
+
+.grid_how-it-works p{
+	font-size: 12px;/* Approximation due to font substitution */
+}
+
+/*выравнивание иконок*/
+.grid_how-it-works .img1-grid_how-it-works{
+	background-position: 0px -3px;
+}
+.grid_how-it-works .img2-grid_how-it-works{
+	background-position: -64px -3px;
+}
+.grid_how-it-works .img3-grid_how-it-works{
+	background-position: -140px -3px;
+}
+.grid_how-it-works .img4-grid_how-it-works{
+	background-position: -2px -87px;
+}
+.grid_how-it-works .img5-grid_how-it-works{
+	background-position: -78px -86px;
+}
+.grid_how-it-works .img6-grid_how-it-works{
+	background-position: -154px -90px;
+}
+/*выравнивание иконок*/
+
+/* cnt-1 history end*/
+
+/* cnt-2 slider*/
+.cnt-2{
+	background-color:  #eee;
+	width: auto;
+	height: 350px;
+	padding: 50px 10px;
+}
+.cnt-2 .arrow{
+	padding-top: 160px;
+	cursor: pointer;
+}
+.arrow>img:hover{
+	background: rgba(0, 0, 0, 0.2);
+}
+.cnt-2 .arrow-left{
+	float: left;
+}
+.cnt-2 .arrow-right{
+	float: right;
+}
+.cnt-2 .slider-main{
+	width: 960px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.cnt-2 .img_slider-main{
+	float: left;
+	margin-right: 40px;
+}
+.cnt-2 .img_slider-main>img{
+	width: 350px;
+	height: 350px;
+}
+
+
+.cnt-2 .content_slider-main{
+	width: 350px;
+	float: left;
+	padding-top: 20px;
+}
+.cnt-2 .content_slider-main p{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.cnt-2 button{
+	background-color: #aaa;
+}
+.cnt-2 button:hover{
+	background-color:  #e92121;
+}
+
+/* cnt-2 slider end*/
+
+
+/* cnt-3 */
+
+.cnt-3 .why-choose-we{
+	margin: 50px auto;
+}
+.label_why-choose-we{
+	float: left;
+	width: 200px;
+	padding-top: 50px;
+}
+.columns_why-choose-we{
+	float: right;
+	width: 550px;
+}
+.columns_why-choose-we li{
+	width: 220px;
+	margin-left: 30px;
+}
+.cnt-3 .why-choose-we h3{
+	font-size: 14px;/* Approximation due to font substitution */
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 35px;
+}
+
+.cnt-3 .why-choose-we p{
+	font-size: 12px;/* Approximation due to font substitution */
+}
+
+.our-jewelery li{
+	height: 235px;
+	vertical-align: top;
+}
+.our-jewelery li h2{
+	padding-top: 100px;
+	padding-left: 40px;
+}
+.our-jewelery li p{
+	padding-top: 50px;
+	line-height: 25px;/* Approximation due to font substitution */
+}
+
+.our-jewelery .text_cnt-3{
+	width: 475px;
+}
+/* cnt-3 end*/
+
+
+/* cnt-4 */
+.cnt-4{
+	background-color: #eee;
+	padding: 50px 0px;
+}
+
+.header_cnt-4{
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 310px;
+	text-align: center;
+}
+
+
+div.comments_cnt-4{
+	margin-left: 20px;
+}
+
+.comments_cnt-4 li{
+	width: 31%;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 10px;
+}
+
+.comments_cnt-4 .img_comments{
+	float: left;
+	width: 38px;
+	margin-right: 7px;
+}
+.comments_cnt-4 .content_comments_cnt-4{
+	float: left;
+	width: 240px;
+}
+p.prof_comments{
+	padding: 5px 0px;
+}
+/* cnt-4 end*/
+
+/* cnt-5*/
+.cnt-5{
+	padding: 50px 0px;
+}
+.cnt-5 li{
+	height: 235px;
+	vertical-align: top;
+}
+.cnt-5 li:nth-child(5),.cnt-5 .text_cnt-5{
+	width: 474px;
+}
+
+.cnt-5 li h2{
+	padding-top: 100px;
+	padding-left: 40px;
+}
+.cnt-5 li p{
+	padding-top: 50px;
+	line-height: 25px;/* Approximation due to font substitution */
+}
+
+/* cnt-5 end*/
+
+/* footer*/
+footer{
+	background-color:  #141414;
+	padding: 50px 0;
+}
+
+.social{
+	float: right;
+	margin-bottom: 40px;
+}
+.social li{
+	margin-left: 20px;
+}
+
+footer .list li{
+	display: block;
+}
+footer .list{
+	float: left;
+	width: 180px;
+	color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright{
+	float: right;
+	text-align: right;
+}
+
+
+/* footer end*/
